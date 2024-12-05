@@ -1,10 +1,10 @@
 import React from 'react'
 //import pictures inside this file
 //put the pics here
-import proj1 from '../assets/proj1.png';
-import proj2 from '../assets/proj2.png';
-import proj3 from '../assets/proj3.png';
-import proj4 from '../assets/proj4.png';
+import proj1 from '../assets/melano_bag.png';
+import proj2 from '../assets/user_manager.webp';
+import proj3 from '../assets/blog_template.webp';
+import proj4 from '../assets/ai_trip_planner.png';
 
 
 const Work = () => {
@@ -24,7 +24,7 @@ const Work = () => {
                     <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                         <span className='text-2xl font-bold text-white tracking-wider '>Melano Bag Store</span>
                         <div className='pt-8 text-center'>
-                            <a href="https://melanobag.onrender.com/" target="_blank" rel='noreferrer'>
+                            <a href="https://github.com/RAHUL-THITA-235/melano" target="_blank" rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Explore
                                 </button>
@@ -38,7 +38,7 @@ const Work = () => {
                     <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                         <span className='text-2xl font-bold text-white tracking-wider '>User Manager</span>
                         <div className='pt-8 text-center'>
-                            <a href="https://user-management-system-er1z.onrender.com/" target="_blank" rel='noreferrer'>
+                            <a href="https://github.com/RAHUL-THITA-235/user-manager" target="_blank" rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Explore
                                 </button>
@@ -50,9 +50,9 @@ const Work = () => {
                 <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center h-[200px] bg-cover relative'>
                     <img src={proj3} alt="project3" />
                     <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                        <span className='text-2xl font-bold text-white tracking-wider '>Hiphop Webpage</span>
+                        <span className='text-2xl font-bold text-white tracking-wider '>Responsive Blog App</span>
                         <div className='pt-8 text-center'>
-                            <a href="https://github.com/RAHUL-THITA-235/HIphop_webpage" target="_blank" rel='noreferrer'>
+                            <a href="https://github.com/RAHUL-THITA-235/crud-blog-web-app" target="_blank" rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Explore
                                 </button>
@@ -60,7 +60,6 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-
 
 
                 <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center h-[200px] bg-cover relative'>
